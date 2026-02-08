@@ -142,11 +142,6 @@ Example:
 App running + DB connected 🚀
 ```
 
-Test API:
-
-```
-http://<ALB-DNS-NAME>/users
-```
 
 ---
 
@@ -183,23 +178,20 @@ docker rm <container-id>
 
 or use another port.
 
----
-
 ## 📸 Screenshots Included
 
-* EC2 Docker containers running
-* ALB active status
-* ASG instance attached
-* API response via browser
+### EC2 Docker Containers Running
+![EC2 Docker](screenshots/ec2-docker-running.png.png)
 
----
+### Application Load Balancer Active
+![ALB Active](screenshots/alb-active.png.png)
 
-## 📌 Author
+### Auto Scaling Group Instance Attached
+![ASG](screenshots/asg-instance.png.png)
 
-**Puja Nanekar**
+### frontend running
+![API Response](screenshots/frontend-response.png.png)
 
----
+### backend running
+![API Response](screenshots/backend-response.png.png)
 
-## ⭐ If you found this helpful
-
-Give this repo a ⭐ and feel free to fork 🚀
